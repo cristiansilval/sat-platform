@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*
+
+# Environment variables (NUNCA subir al repo)
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Next.js
+apps/web/.next/
+apps/web/out/
+
+# Expo / React Native
+apps/mobile/.expo/
+apps/mobile/dist/
+apps/mobile/android/
+apps/mobile/ios/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Supabase local
+supabase/.temp/
+supabase/functions/.cache/
