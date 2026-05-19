@@ -1,0 +1,5 @@
+{
+  "installCommand": "yarn install",
+  "buildCommand": "yarn workspace @sat/web build",
+  "outputDirectory": "apps/web/.next"
+}
